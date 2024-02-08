@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+#todo{
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+.Menu{
+    position: sticky;
+    top: 0;
+    height: 95vh;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Opciones{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 2rem;
+    list-style-type: none;
+    border: none;
+    padding-right: 0;
+}
+footer{
+    font-size: .85rem;
+}
+.botonesmenu{
+    display: flex;
+    width: 20.5vw;
+    border: none;
+    padding: 1rem ;
+    background-color: transparent;
+    justify-content: flex-start;
+}
+h1{
+    font-size: 1rem;
+}
+button{
+    cursor: pointer;
+}
+#Titulo{
+    background-color: red;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 4rem;
+    margin-left: 0;
+}
+img{
+    max-width: 90%;
+    border-radius: 3rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#articulos{
+    gap: 2rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.articulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.SeccionAgregar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding-bottom: 1rem ;
+}
+.abajoarticulos{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    align-items: center;
+
+}
+.botonagregar{
+    background-color: red;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    border: 2px solid red;
+}
+p{
+    font-size: 1em;
+}
